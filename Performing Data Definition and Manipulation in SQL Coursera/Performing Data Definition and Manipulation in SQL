@@ -1,0 +1,41 @@
+1. Is PostgreSQL the only tool that you can use for relational database management?
+Ans: No
+
+2. Which query returns all records in the customers table? (Select all that apply)
+Ans: SELECT * FROM Costomers;
+	 SELECT * FROM costomers;
+
+3. Which is the correct way to insert records into a table? (Select all that apply)
+Ans: INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);
+	 INSERT INTO table_name VALUES (value1, value2, value3, ...);
+
+4. How many records were returned as output from the query, SELECT * FROM companies; from the CSV file uploaded?
+Ans: 3
+
+5. A database administrator inserts a record this way:
+
+INSERT INTO customers_dup (customer_id, first_name, last_name, email_address, number_of_complaints, gender)
+
+VALUES (3, 'Sharon', 'Metz', 'gracemt21@yahoo.com', 11, 'M);
+
+He saw that he mistakenly entered 11 for the number_of_complaints instead of 1. How will he make this change in the table?
+Ans: UPDATE customers_dup
+	 SET number_of_complaints = 1
+	 WHERE customer_id = 3;
+
+6. Which of these syntaxes is a Data Definition Language (DDL) syntax in SQL? (Select all that apply)
+Ans: CREATE
+	 ALTER
+	 DROP
+	 TRUNCATE
+
+
+7. Which of this maintains the referential integrity constraints?
+Ans: Foriegn key
+
+
+
+UPDATE customers_dup
+SET number_of_complaints = 1
+WHERE customer_id = 3;
+

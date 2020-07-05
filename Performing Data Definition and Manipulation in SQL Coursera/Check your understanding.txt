@@ -1,0 +1,17 @@
+1. A few related tables form a _______
+Ans: Relationa Database.
+
+2. Why do we add a NOT NULL constraint to a field of a table?
+Ans: We do not want the field ro contain any missing value
+
+3. What is the precision for a DECIMAL data type with data value 2345.532 in a field called unit_price_usd?
+Ans: 7
+
+4. What is the first step when we want to import a CSV file to a database?
+Ans: Create a table similar to CSV file
+
+5. Which SQL syntax can be used together with ALTER to change the name of a table?
+ Ans: RENAME
+
+6. What will happen if we DELETE from a table without the WHERE clause?
+Ans: All records of the table will be removed
